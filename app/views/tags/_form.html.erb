@@ -1,15 +1,16 @@
-<%= form_for(@article) do |f| %>
+<%= form_for(@tag) do |t| %>
   <ul>
-  <% @article.errors.full_messages.each do |error| %>
+  <% @tag.errors.full_messages.each do |error| %>
     <li><%= error %></li>
   <% end %>
   </ul>
   <p>
-    <%= f.label :tag_list %><br />
-    <%= f.text_field :tag_list %>
+    <%= t.label :name %><br />
+    <%= t.text_field :name %>
   </p>
+
   <p>
-    <%= f.submit %>
+    <%= t.submit %>
   </p>
 <% end %>
 <% if @tag.name != nil %>
