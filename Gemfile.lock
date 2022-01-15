@@ -103,7 +103,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.2.0)
-    ffi (1.15.3)
+    ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.8.11)
@@ -112,7 +112,7 @@ GEM
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     jwt (2.2.1)
-    listen (3.6.0)
+    listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.13.0)
@@ -258,7 +258,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 5.0)
   jbuilder (~> 2.11)
-  listen (>= 3.0.5, < 3.7)
+  listen (>= 3.0.5, < 3.8)
   paperclip
   pg
   puma (~> 5.3)
